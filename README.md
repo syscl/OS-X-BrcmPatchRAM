@@ -5,7 +5,7 @@ For the most part this fork is kept in sync with the-darkvoid's verson.  We are 
 
 ###RehabMan Fork Downloads
 
-Builds are available on bitbucket: https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads
+Builds are available on bitbucket: https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/
 
 
 ###Installation
@@ -54,11 +54,11 @@ Note that the original Apple Broadcom bluetooth devices are not RAMUSB devices, 
 
 To be used for OS X 10.11 or newer.
 
-This kext is a simple injector... it does not contain a firmware uploader.  Try this kext if you wish to see if the built-in firmware uploader in 10.11+ will work for your device.
+This kext is a simple injector... it does not contain a firmware uploader.  Try this kext if you wish to see if your device will work without a firmware uploader.
 
 Do not use any of the other kexts (BrcmPatchRAM, BrcmPatchRAM2, BrcmFirmwareRepo, or BrcmFirmwareData) with this kext.
 
-This kext is not provided in the distribution ZIP.  You can build it if you wish to try it.  It was removed as it presense was causing confusion for those that don't read carefully and didn't install the preferred kexts correctly.
+This kext is not provided in the distribution ZIP.  You can build it if you wish to try it.  It was removed as it presense was causing confusion for those that don't read carefully and didn't install the preferred kexts correctly.  It is not currently being updated with new devices.  If yours is not present, edit the Info.plist as needed.
 
 
 ####Supported Devices
@@ -98,6 +98,7 @@ Tested PatchRAM devices:
   * ``[0a5c:21fb]`` HP Supra 4352 (20702A1 Combo)
   * ``[0a5c:21fd]`` Broadcom 4352Z
   * ``[0a5c:22be]`` Broadcom BCM20702 Bluetooth 4.0 USB Device
+  * ``[0a5c:6410]`` Dell Wireless 1830 Bluetooth 4.1 LE
   * ``[0b05:17cb]`` Asus BT-400 (20702 stand-alone) *
   * ``[0b05:17cf]`` Asus (4352/20702A1 combo) *
   * ``[0b05:180a]`` Azurewave (4360/20702 combo)
